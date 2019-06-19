@@ -111,7 +111,26 @@ with IECore.IgnoredExceptions( ImportError ) :
 		"volume_direct",
 		"volume_indirect",
 		"volume_albedo",
+		"volume_Z",
+		"volume_opacity",
+		"shadow",
+		"shadow_diff",
+		"shadow_mask",
+		"shadow_matte",
+		"sheen",
+		"sheen_albedo",
+		"sheen_direct",
+		"sheen_indirect",
 		"light_groups",
+		"opacity",
+		"Z",
+		"N",
+		"P",
+		"Pref",
+		"motionvector",
+		"highlight",
+		"rim_light"
+		
 	] :
 
 		label = aov.replace( "_", " " ).title().replace( " ", "_" )
